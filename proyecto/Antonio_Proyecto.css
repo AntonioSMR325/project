@@ -1,0 +1,405 @@
+/* CSS hecho por Antonio Alarcón Marín */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 450%;
+    background-image: url(carretera.jpg);
+    /* imagen de fondo */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url(bmw.cur), auto;
+    /* Cursor principal */
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    background-color: rgb(198, 23, 23, 0.659);
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img.logo-izquierda {
+    position: absolute;
+    left: 10px;
+    height: 30px;
+    width: auto;
+}
+
+footer img.logo-derecha {
+    position: absolute;
+    right: 50px;
+    height: 40px;
+    width: auto;
+}
+
+article {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule: 3px solid yellow;
+    background-color: white;
+    cursor: url(ferrari.cur), auto;
+    /* Cursor para el texto */
+}
+
+/* Primera letra en rojo */
+p::first-letter {
+    font-size: 3rem;
+    color: red;
+}
+
+/* Linea del parrafo en verde */
+p::first-line {
+    color: green;
+}
+
+ul li {
+    list-style-type: none;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+
+}
+
+ol ol {
+    list-style-type: armenian;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    border: solid black;
+    padding: 3rem;
+}
+
+.kia {
+    background-image: url(kia.jpg);
+}
+
+.hyundaiI {
+    background-image: url(hyundaiI.jpg);
+}
+
+.bmw {
+    background-image: url(bmw.jpg);
+}
+
+.volvo {
+    background-image: url(volvo.jpg);
+}
+
+.porsche {
+    background-image: url(porsche.jpg);
+}
+
+.byd {
+    background-image: url(byd.jpg);
+}
+
+.volkswagen {
+    background-image: url(buzz.jpg);
+}
+
+.hyundaiS {
+    background-image: url(hyundaiS.jpg);
+}
+
+
+.mini {
+    background-image: url(mini.jpg);
+}
+
+.renault {
+    background-image: url(renault.jpg);
+}
+
+.ListaOrdenada {
+    background-image: linear-gradient(to right, rgb(194, 3, 3), white);
+}
+
+.listaDesordenada {
+    box-shadow: -0.5rem 0.5rem 0.5rem red;
+    text-shadow: 0.2rem 0.2rem 0.4rem red;
+    background-color: white;
+}
+
+.grid {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    cursor: url(bmw2.cur), auto;
+}
+
+.grid img {
+    width: 90%;
+    border: 3px solid;
+    margin: auto;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+img {
+    transition: all 0.5s linear;
+}
+
+video,
+audio,
+iframe {
+    padding-top: 1rem;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.video {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+
+}
+
+.menuH {
+    overflow: hidden;
+    border: 5px double;
+    border-color: rgb(198, 23, 23, 0.659);
+
+}
+
+.menuH a {
+    background-color: rgb(198, 23, 23, 0.659);
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.menuH a:hover {
+    background-color: white;
+    color: rgb(198, 23, 23, 0.659);
+}
+
+
+table {
+    margin-top: 5rem;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;
+}
+
+td,
+th {
+    border: 0.2rem solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    color: black;
+}
+
+th img {
+    width: 90px;
+}
+
+.color {
+    background-color: red;
+}
+
+main {
+    padding: 2rem;
+    flex: 1;
+}
+
+form {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    border-color: rgb(5, 4, 4);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin: auto;
+
+}
+
+.mapa {
+    width: 100%;
+    max-width: 800px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+.cursor {
+    cursor: pointer;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+@media (width<=768) {
+    .boton button div {
+        grid-template-columns: 1fr;
+
+        td,
+        th {
+            font-size: 1rem;
+            padding: 6px 3px;
+        }
+
+    }
+}
+
+@media (width<=576px)and(width>576px) {}
